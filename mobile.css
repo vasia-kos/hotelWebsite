@@ -1,0 +1,368 @@
+@media (max-width: 500.98px) {
+
+    #sidebar ul li{
+     border-bottom: solid rgba(0, 0, 0, 0.253);
+   }
+
+   #sidebar ul li :hover{
+     background-color: rgba(0, 0, 0, 0.123);
+     padding: 5px;
+     
+   } 
+ 
+    /*carousel----------------------*/
+      .rooms{
+        display: none;
+    }
+
+    .rooms-mobile{
+        display: block;
+        background-image: url(rooms-background2.jpg);
+    }
+
+     .carousel-image{
+        height: 200px;
+        width: 300px;
+    }
+
+  #carouselExampleIndicators2{
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin-bottom: 80px;
+
+  
+}
+  .room{
+    padding-left: 0px;
+    
+    text-align: center;
+    
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    margin-bottom: 50px;
+  
+    }
+
+    /*-------------------------------*/
+    .hero-img {
+        width: 100%;
+        background-image:url("mobile.jpg");
+        background-size: contain;
+        height: 580px;
+        
+        
+    }
+
+  .title{
+    padding-top:50px;
+    font-size: 40px;
+    
+  }
+
+  .welcome{
+   width: 95%; 
+  }
+
+  .style-text{
+    width: 95%;
+    font-size: 15px;
+  }
+  h5{
+    font-size:25px;
+  }
+
+  #carouselExampleIndicators{
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  
+}
+
+.footer{
+  
+  height: 500px;
+}
+
+.links{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .links li{
+  padding-bottom: 15px;
+}
+
+.navbar{
+  display: none;
+}
+
+
+/*SIDE BAR*/
+
+  .container-fluid {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+  .sidebar-header {
+    display: block;
+  }
+
+  #sidebarCollapse {
+    display: block;
+  }
+
+  #sidebar {
+    display: block;
+  }
+
+  .burger{
+  display: block;
+  height:50px;
+  background-color: #5f7684;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding-top:20px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom: 20px;
+  
+  }
+  .carousel-image{
+  height: 200px;
+  width: 300px;
+}
+   #sidebar ul li{
+     border-bottom: solid rgba(0, 0, 0, 0.253);
+   }
+
+   #sidebar ul li :hover{
+     background-color: rgba(0, 0, 0, 0.123);
+     padding: 5px;
+     
+   }
+  
+
+
+ }
+
+ 
+
+
+
+
+
+@media (max-width: 800px) and (min-width : 501px) { 
+    
+        .rooms{
+        display: none;
+    }
+
+    .rooms-mobile{
+        display: block;
+    }
+
+     .carousel-image{
+        height: 200px;
+        width: 300px;
+    }
+
+  #carouselExampleIndicators2{
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin-bottom: 20px;
+
+  
+}
+  .room{
+    padding-left: 0px;
+    
+    text-align: center;
+    
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    margin-bottom: 50px;
+  
+    }
+
+
+    /*--------------------------*/
+
+    .navbar {
+        display:none;
+    }
+
+    #sidebar{
+        display: block;
+    }
+
+   
+
+  .container-fluid {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+  .sidebar-header {
+    display: block;
+  }
+
+  #sidebarCollapse {
+    display: block;
+  }
+
+  .hero-img{
+    height: 600px;
+    background-image: url("tablet.jpg");
+  }
+
+  .title{
+    padding: 0px;
+  }
+  .footer{
+  height: 500px;
+}
+
+.links{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .links li{
+  padding-bottom: 15px;
+}
+
+.burger{
+  display: block;
+   height:50px;
+  background-color: #5f7684;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding-top:20px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom: 20px;
+  
+  }
+  #sidebar ul li{
+     border-bottom: solid rgba(0, 0, 0, 0.253);
+   }
+
+   #sidebar ul li :hover{
+     background-color: rgba(0, 0, 0, 0.123);
+     padding: 5px;
+     
+   }
+
+ }
+
+    
+
+ 
+
+@media (max-width: 1200px) and (min-width:801px) {
+
+  #sidebar ul li{
+     border-bottom: solid rgba(0, 0, 0, 0.253);
+   }
+
+   #sidebar ul li :hover{
+     background-color: rgba(0, 0, 0, 0.123);
+     padding: 5px;
+     
+   }
+    /*carousel-------------------*/
+      .rooms{
+        display: none;
+    }
+
+    .rooms-mobile{
+        display: block;
+    }
+
+     .carousel-image{
+        height: 200px;
+        width: 300px;
+    }
+
+  #carouselExampleIndicators2{
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin-bottom: 20px;
+
+  
+}
+  .room{
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    margin-bottom: 50px;
+  
+    }
+    /*-------------------------*/
+    .navbar {
+        display:none;
+    }
+
+    #sidebar{
+        display: block;
+    }
+
+   
+
+  .container-fluid {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+  .sidebar-header {
+    display: block;
+  }
+
+  #sidebarCollapse {
+    display: block;
+  }
+
+  .hero-img{
+    height: 600px;
+    background-image: url("hero2.jpg");
+  }
+
+  .title{
+    padding: 0px;
+  }
+
+  .burger{
+    display: block;
+   height:50px;
+  background-color: lightslategray;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding-top:20px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom: 20px;
+  
+  }
+
+}

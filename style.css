@@ -1,0 +1,234 @@
+/* carousel-------------------------------------------*/
+
+.rooms-mobile{
+  display: none;
+}
+
+    .carousel-item{
+      position: relative;
+    }
+     
+    .block {
+        box-shadow: 10px 10px 5px #aaaaaa;
+        background-color: white;
+        margin-right: 10px;
+        
+
+    }
+
+    .carousel-image {
+        height: 200px;
+        width: 200px;
+    }
+
+    #carouselExampleIndicators {
+        width: 900px;
+        height: 500px;
+    }
+
+    .room {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        margin-bottom: 50px;
+
+    }
+
+    .carousel-indicators .active {
+        background-color: rgb(150, 25, 25);
+    }
+
+    .carousel-indicators{
+      margin-top: 200px;
+    }
+
+    .carousel-indicators li {
+        
+        background-color: rgb(110, 39, 39);
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgb(218, 65, 65);
+        margin-bottom: 200px;
+
+    }
+
+    .carousel-control-prev-icon{
+      margin-right:30px;
+    }
+
+    .room{
+      padding-left: 30px;
+    }
+
+.welcome{
+  width: 40%;
+}
+
+.style-text{
+  padding-top:20px;
+  width: 65%;
+}
+h5{
+  font-size: 30px;
+  padding-top:20px;font-weight: 600;
+}
+
+.carousel-image{
+  height: 200px;
+  width: 400px;
+}
+
+/*-----------------------------------------------------*/
+.burger{
+   display: none;
+ }
+
+ 
+
+.hero-img {
+  height: 710px;
+  width: 100%;
+  background-image: url("hero2.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+}
+
+.title{
+  padding-top:150px;
+  font-weight: bold;color: white;
+  font-size: 60px;
+  
+}
+
+.rooms{
+  background-image: url(rooms-background.jpg);
+  height: 690px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+
+
+ a{
+  padding-top: 25px;
+  
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+ }
+
+li{
+  list-style: none;
+}
+
+.footer{
+  height: 150px;
+  background-color: #4f4f44;
+}
+
+.links{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li :hover{
+  
+  background-color: #79553193;
+  padding: 8px;
+  color: white;
+  
+}
+
+li:active{
+  background-color: #795531;
+  padding: 12px;
+  color: white;
+  
+}
+
+
+
+a[tabindex]:focus {
+  background-color: #795531;
+  padding: 12px;
+  border-color:#795531 ;
+  
+}
+
+
+
+.navbar{
+  padding-left: 140px;
+  padding-right: 140px ;
+  height: 90px;
+  background-color: #5f7684bd;
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+}
+
+
+
+#sidebarCollapse {
+  display: none;
+  
+}
+
+#sidebarCollapse {
+  width: 30px;
+  height: 30px;
+  
+  background-size: contain;
+  
+  
+}
+
+#sidebar {
+  display: none;
+}
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background-color: #5f7684c4; /*xrwma olou toy sidebar*/
+  color: rgb(5, 3, 3); /*xrwma grammatoseiras*/
+  transition: all 0.3s;
+  box-shadow: 1px 1px 3px grey;
+  position: relative;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar ul li{
+  padding: 20px;
+  height: 50px;
+  background-color: #5f7684bb;;
+}
+
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+
+
+
